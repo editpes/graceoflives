@@ -1,3 +1,4 @@
+window.onload=function(){
 Decimal.config({
   precision: 17
 });
@@ -769,3 +770,4 @@ $(document).ready(function() {
     showASGain(additionalASShow);
   });
 });
+}
