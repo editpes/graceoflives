@@ -654,7 +654,7 @@ function showBossRaidData() {
 
 //ELEMENTS' BEHAVIORS
 $(document).ready(function() {
-  $("head").append("<link id=\"themeLink\" rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/graceoflives/fluffy-garbanzo/master/theme_dark.css" type=\"text/css\" />");
+  $("head").append("<link id=\"themeLink\" rel=\"stylesheet\" href=\"https://editpes.github.io/graceoflives/themes/theme_dark.css" type=\"text/css\" />");
   $("#themeChoice input").on("change", function() {
     $("head #themeLink").prop("href", "https://editpes.github.io/graceoflives/themes/theme_" + $("#themeChoice input[name=\"theme\"]:checked").val() + ".css");
   });
