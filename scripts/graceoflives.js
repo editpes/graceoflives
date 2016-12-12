@@ -654,9 +654,9 @@ function showBossRaidData() {
 
 //ELEMENTS' BEHAVIORS
 $(document).ready(function() {
-  $("head").append("<link id=\"themeLink\" rel=\"stylesheet\" href=\"https://editpes.github.io/graceoflives/themes/theme_dark.css\" type=\"text/css\" />");
+  $("head").append("<link id=\"themeLink\" rel=\"stylesheet\" href=\"/graceoflives/themes/theme_dark.css\" type=\"text/css\" />");
   $("#themeChoice input").on("change", function() {
-    $("head #themeLink").prop("href", "https://editpes.github.io/graceoflives/themes/theme_" + $("#themeChoice input[name=\"theme\"]:checked").val() + ".css");
+    $("head #themeLink").prop("href", "/graceoflives/themes/theme_" + $("#themeChoice input[name=\"theme\"]:checked").val() + ".css");
   });
   $("#anctable").append("<tr><td></td><td class=\"number\"></td><td class=\"number\"></td><td class=\"number bold\"></td><td></td></tr>");
   var input = document.createElement("input");
